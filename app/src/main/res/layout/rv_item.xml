@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rv_list_cornerbg"
+    android:elevation="2dp"
+    android:padding="10dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <TextView
+        android:id="@+id/item_evaluation_title"
+        android:text="个士大夫深度反倒是但是夫深度反倒是但是夫深度夫深度反倒是但是反倒是但是夫深度反倒是但是夫深度反倒是但是夫深度反倒是但是夫深度反倒是但是夫深度反倒是但是深度深度深度是"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:maxLines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/item_evaluation_description"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ffffdaffdaffdaffdaffdaffdaffdaffdaffdaffffdaffdaffdaffdaffdaffdaffdaffdaffdadaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdaffdada"
+        android:maxLines="3"
+        android:ellipsize="end"/>
+    <TextView
+        android:id="@+id/item_evaluation_pubdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="发布时间：2018-04-04 00:00:00"/>
+    <TextView
+        android:id="@+id/item_evaluation_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="作者:	liugaotian1111111444444"/>
+</LinearLayout>
